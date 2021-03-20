@@ -1,0 +1,35 @@
+package com.test.oops;
+
+import java.util.Scanner;
+
+public class StringEx {
+
+	public static void main(String[] args) {
+		String value1="sivagopal";
+		String value2="";
+		String value3=null;
+		String value4="shyaam";
+		String value5="soundarya";
+		
+		//contains
+		System.out.println("if the value has the content then true, if not false");
+		System.out.println(value1.contains("siva"));
+		System.out.println(value1.contains("master"));
+		
+		//isempty(if empty true, if not false)
+		System.out.println(value1.isEmpty());
+		System.out.println(value2.isEmpty());
+		System.out.println(value3.isEmpty());
+		
+		//replace
+		System.out.println(value4.replace('a','-'));
+			
+		//replaceall
+		System.out.println(value1.replaceAll("sivagopal","sivaji"));
+				
+				
+		System.out.println(value5.replaceAll(value5,"sound"));
+		
+	}
+
+}
