@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class StringEx {
 
 	public static void main(String[] args) {
+		String value=sivagopal;
 		String value1="sivagopal";
 		String value2="";
 		String value3=null;
@@ -26,10 +27,11 @@ public class StringEx {
 			
 		//replaceall
 		System.out.println(value1.replaceAll("sivagopal","sivaji"));
-				
-				
+						
 		System.out.println(value5.replaceAll(value5,"sound"));
 		
+		//compareto
+		System.out.println(value.compareTo(value1));				
 	}
 
 }
